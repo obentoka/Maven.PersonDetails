@@ -21,6 +21,7 @@ public class PersonHandler {
             // get `string Representation` of `currentPerson`
             // append `stringRepresentation` to `result` variable
             result += personArray[counter];
+            counter++;
         }
             // end loop
         return result;
